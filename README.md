@@ -11,8 +11,8 @@ Este repositório contém uma coleção de projetos web que demonstram diferente
 Os projetos são projetados para serem usados como recursos de aprendizado para desenvolvedores que desejam aprender mais sobre como criar layouts web. Eles também podem ser usados como inspiração para designers e desenvolvedores que procuram novas ideias para seus próprios projetos. Espero que você aproveite este repositório!
 
 ## Recursos
-Design Flexível: Explore como projetar layouts flexíveis que acomodem o crescimento do conteúdo e mantenham a aparência agradável, mesmo com diferentes quantidades de informações.
-Layouts Multi-Column: Descubra como criar layouts de várias colunas com suporte para conteúdo diversificado, como artigos, sidebars e cabeçalhos.
+* Design Flexível: Explore como projetar layouts flexíveis que acomodem o crescimento do conteúdo e mantenham a aparência agradável, mesmo com diferentes quantidades de informações.
+* Layouts Multi-Column: Descubra como criar layouts de várias colunas com suporte para conteúdo diversificado, como artigos, sidebars e cabeçalhos.
 
 ## Instruções de Instalação (caso aplicável)
 Este projeto é uma coleção de tutoriais e exemplos disponibilizados online, não requerendo instalação local. Basta acessar o URL fornecido e explorar os recursos disponíveis.
