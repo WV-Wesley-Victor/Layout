@@ -1,0 +1,37 @@
+Esse código HTML e CSS é uma demonstração do uso da propriedade z-index para controlar a sobreposição de elementos posicionados. Vou explicar cada parte do código:
+
+- <!DOCTYPE html>: Define o tipo de documento como HTML5.
+
+- <html lang="pt-br">: Elemento raiz do documento HTML com o atributo lang definido como "pt-br" para português brasileiro.
+
+- <head>: O elemento head contém metadados e outras informações sobre o documento.
+
+- Meta tags: As linhas com <meta> definem algumas informações úteis para mecanismos de busca e outros processos. O atributo charset="UTF-8" define a codificação do caractere como UTF-8, garantindo o suporte a caracteres especiais. As meta tags author, description, e keywords fornecem informações sobre o autor, a descrição da página e as palavras-chave relacionadas à página, respectivamente.
+
+- <title>Z-index</title>: Define o título da página como "Z-index", que será exibido na aba do navegador ou na barra de título da janela.
+
+- <style>: O elemento style contém o código CSS embutido, onde são definidos os estilos para a página.
+
+- Estilos para o elemento div: Define os estilos para todos os elementos div na página. Eles têm uma borda sólida preta de 4 pixels, preenchimento interno de 12 pixels, margem inferior de 12 pixels, uma cor de fundo com transparência (rgba(0, 0, 0, 0.2)), tamanho de fonte de 18 pixels e uma família de fonte sans-serif. Além disso, eles têm uma largura de 60%.
+
+- Estilos para os elementos com classes .div2.group2 e .div2.group1: São usados para controlar a posição dos elementos dentro das duas seções. O position: absolute permite posicionar os elementos de forma absoluta em relação à janela do navegador. Os elementos com a classe .div2.group2 estão posicionados no canto superior direito (top: 0, right: 0) e têm um fundo branco. Eles também têm uma z-index: 2, que determina sua ordem de sobreposição, tornando-os visíveis acima dos elementos com z-index menor.
+
+- Estilos para o elemento com a classe .div2.group1: Define a posição dos elementos com essa classe. No entanto, a propriedade position: absolute está comentada nesse caso. Se essa linha não estivesse comentada, os elementos seriam posicionados em relação à janela do navegador.
+
+- Estilos para o elemento com a classe .div3.group1: Define a posição e cor de fundo do elemento com essa classe. O position: relative permite posicionar o elemento em relação à sua posição normal no fluxo do documento. O z-index: 2 determina sua ordem de sobreposição em relação aos elementos irmãos com z-index menor.
+
+- Estilos para o elemento com a classe .div4.group1: Define a posição, cor de fundo e z-index do elemento com essa classe. O position: relative permite posicionar o elemento em relação à sua posição normal no fluxo do documento. O bottom: 35px e left: 15px deslocam o elemento 35 pixels para baixo e 15 pixels para a esquerda em relação à sua posição normal. O z-index: 3 determina sua ordem de sobreposição, tornando-o visível acima dos elementos com z-index menor.
+
+- </style>: Fecha o elemento style.
+
+- <body>: O elemento body contém o conteúdo visível da página.
+
+- <h1>Z-index</h1>: Cabeçalho de nível 1 (h1) com o texto "Z-index".
+
+- <ul style="display: flex; list-style-type: none">...</ul>: Lista não ordenada (ul) com um estilo personalizado, definido inline com o atributo style. A propriedade display: flex é usada para criar um contêiner flex para os elementos da lista e list-style-type: none remove os marcadores de lista padrão.
+
+- <div class="div1 group1">...</div>: Um contêiner com a classe "div1 group1" que contém os elementos div 2, 3 e 4. Esses elementos são agrupados sob um contêiner.
+
+- <div class="div1 group2">...</div>: Um contêiner com a classe "div1 group2" que também contém os elementos div 2, 3 e 4, mas com uma classe de grupo diferente. Esses elementos são agrupados sob outro contêiner.
+
+Os elementos div dentro dos contêineres são posicionados usando position: absolute e position: relative, e a propriedade z-index é usada para controlar sua sobreposição. Através dessas propriedades, é possível controlar a posição e ordem de sobreposição dos elementos na página.

@@ -1,0 +1,45 @@
+Esse código HTML e CSS é uma demonstração de como usar as propriedades CSS width: fit-content, width: min-content e width: max-content. Essas propriedades permitem ajustar a largura de um elemento conforme o tamanho do conteúdo dentro dele. Vou explicar cada parte do código:
+
+- <!DOCTYPE html>: Define o tipo de documento como HTML5.
+
+- <html lang="pt-br">: Elemento raiz do documento HTML com o atributo lang definido como "pt-br" para português brasileiro.
+
+- <head>: O elemento head contém metadados e outras informações sobre o documento.
+
+- Meta tags: As linhas com <meta> definem algumas informações úteis para mecanismos de busca e outros processos. O atributo charset="UTF-8" define a codificação do caractere como UTF-8, garantindo o suporte a caracteres especiais. As meta tags author, description, e keywords fornecem informações sobre o autor, a descrição da página e as palavras-chave relacionadas à página, respectivamente.
+
+- <title>Fit content</title>: Define o título da página como "Fit content", que será exibido na aba do navegador ou na barra de título da janela.
+
+- <style>: O elemento style contém o código CSS embutido, onde são definidos os estilos para a página.
+
+- Estilos para a classe .container: Define os estilos para a classe .container, que representa um contêiner com borda, preenchimento, largura de 300 pixels e uma margem inferior de 16 pixels.
+
+- Estilos para a classe .item: Define os estilos para a classe .item, que representa cada item dentro do contêiner. Os itens têm uma cor de fundo azul-violeta, um preenchimento interno de 5 pixels e uma margem inferior de 10 pixels.
+
+- Estilos para a classe .fit-content .item: Define os estilos para a classe .item dentro do contêiner com a classe .fit-content. O width: fit-content faz com que os itens tenham uma largura ajustada ao tamanho do conteúdo dentro deles.
+
+- Estilos para a classe .min-content .item: Define os estilos para a classe .item dentro do contêiner com a classe .min-content. O width: min-content faz com que os itens tenham uma largura mínima ajustada ao tamanho do conteúdo mais estreito dentro deles.
+
+- Estilos para a classe .max-content .item: Define os estilos para a classe .item dentro do contêiner com a classe .max-content. O width: max-content faz com que os itens tenham uma largura máxima ajustada ao tamanho do conteúdo mais largo dentro deles.
+
+- </style>: Fecha o elemento style.
+
+- <body>: O elemento body contém o conteúdo visível da página.
+
+- <h1>Fit content</h1>: Cabeçalho de nível 1 (h1) com o texto "Fit content".
+
+- <ul style="display: flex; list-style-type: none">: Lista não ordenada (ul) com um estilo personalizado, definido inline com o atributo style. A propriedade display: flex é usada para criar um contêiner flex para os elementos da lista e list-style-type: none remove os marcadores de lista padrão.
+
+- <li style="padding: 5px">...: Cada elemento de lista (li) contém um link (a) para diferentes páginas relacionadas. Eles têm um preenchimento interno de 5 pixels.
+
+- <div class="container fit-content">...</div>: Um contêiner com a classe "fit-content" que contém quatro itens com a classe "item". Os itens neste contêiner terão a largura ajustada ao tamanho do conteúdo dentro deles devido à definição width: fit-content.
+
+- <div class="container min-content">...</div>: Um contêiner com a classe "min-content" que contém quatro itens com a classe "item". Os itens neste contêiner terão a largura mínima ajustada ao tamanho do conteúdo mais estreito dentro deles devido à definição width: min-content.
+
+- <div class="container max-content">...</div>: Um contêiner com a classe "max-content" que contém quatro itens com a classe "item". Os itens neste contêiner terão a largura máxima ajustada ao tamanho do conteúdo mais largo dentro deles devido à definição width: max-content.
+
+- </body>: Fecha o elemento body.
+
+- </html>: Fecha o elemento html.
+
+Neste código, são apresentados três exemplos de largura de elementos usando as propriedades fit-content, min-content e max-content, permitindo que os itens dentro dos contêineres sejam ajustados de acordo com o tamanho do conteúdo.

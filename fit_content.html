@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="author" content="Wesley Victor Pereira Silva" />
+  <meta name="description" content="Descrição da página" />
+  <meta name="keywords" content="html5, tecnologia" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fit content</title>
+  <style>
+    .container {
+      border: 2px solid black;
+      padding: 16px;
+      width: 300px;
+      margin-bottom: 16px;
+    }
+
+    .item {
+      background-color: blueviolet;
+      margin-bottom: 10px;
+      padding: 5px;
+    }
+
+    .fit-content .item {
+      width: fit-content;
+    }
+
+    .min-content .item {
+      width: min-content;
+    }
+
+    .max-content .item {
+      width: max-content;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Fit content</h1>
+  <ul style="display: flex; list-style-type: none">
+    <li style="padding: 5px"><a href="position.html">Position</a></li>
+    <li style="padding: 5px"><a href="overflow.html">Overflow</a></li>
+    <li style="padding: 5px"><a href="index.html">Z-index</a></li>
+    <li style="padding: 5px"><a href="float_clear.html">Float e clear</a></li>
+    <li style="padding: 5px"><a href="fit_content.html">Fit content</a></li>
+  </ul>
+  <div class="container fit-content">
+    <div class="item">lorem</div>
+    <div class="item">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, eum.
+    </div>
+    <div class="item">
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt ea
+      debitis temporibus dignissimos, sapiente optio laudantium quia labore
+      minima, doloremque dolorum veniam ipsa impedit natus.
+    </div>
+    <div class="item">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, provident
+      maxime, optio blanditiis amet repellendus, officia totam unde recusandae
+      iste similique quam aspernatur numquam voluptatum quisquam hic pariatur
+      accusamus ullam itaque. Id incidunt tempora eveniet eius, sunt sint
+      alias ipsa architecto numquam minima placeat quas consequuntur,
+      quibusdam, asperiores nulla optio!
+    </div>
+  </div>
+  <div class="container min-content">
+    <div class="item">lorem</div>
+    <div class="item">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, eum.
+    </div>
+    <div class="item">
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt ea
+      debitis temporibus dignissimos, sapiente optio laudantium quia labore
+      minima, doloremque dolorum veniam ipsa impedit natus.
+    </div>
+    <div class="item">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, provident
+      maxime, optio blanditiis amet repellendus, officia totam unde recusandae
+      iste similique quam aspernatur numquam voluptatum quisquam hic pariatur
+      accusamus ullam itaque. Id incidunt tempora eveniet eius, sunt sint
+      alias ipsa architecto numquam minima placeat quas consequuntur,
+      quibusdam, asperiores nulla optio!
+    </div>
+  </div>
+  <div class="container max-content">
+    <div class="item">lorem</div>
+    <div class="item">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, eum.
+    </div>
+    <div class="item">
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt ea
+      debitis temporibus dignissimos, sapiente optio laudantium quia labore
+      minima, doloremque dolorum veniam ipsa impedit natus.
+    </div>
+    <div class="item">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, provident
+      maxime, optio blanditiis amet repellendus, officia totam unde recusandae
+      iste similique quam aspernatur numquam voluptatum quisquam hic pariatur
+      accusamus ullam itaque. Id incidunt tempora eveniet eius, sunt sint
+      alias ipsa architecto numquam minima placeat quas consequuntur,
+      quibusdam, asperiores nulla optio!
+    </div>
+  </div>
+</body>
+
+</html>

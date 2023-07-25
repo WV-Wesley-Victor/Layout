@@ -1,0 +1,37 @@
+Esse código HTML e CSS demonstra o uso da propriedade position para posicionar elementos na página. Vou explicar cada parte do código:
+
+- <!DOCTYPE html>: Define o tipo de documento como HTML5.
+
+- <html lang="pt-br">: Elemento raiz do documento HTML com o atributo lang definido como "pt-br" para português brasileiro.
+
+- <head>: O elemento head contém metadados e outras informações sobre o documento.
+
+- Meta tags: As linhas com <meta> definem algumas informações úteis para mecanismos de busca e outros processos. O atributo charset="UTF-8" define a codificação do caractere como UTF-8, garantindo o suporte a caracteres especiais. As meta tags author, description, e keywords fornecem informações sobre o autor, a descrição da página e as palavras-chave relacionadas à página, respectivamente.
+
+- <title>Position</title>: Define o título da página como "Position", que será exibido na aba do navegador ou na barra de título da janela.
+
+- <style>: O elemento style contém o código CSS embutido, onde são definidos os estilos para a página.
+
+- Estilos para os elementos com IDs #div1, #div2 e #div3: São definidos os estilos para esses elementos.
+
+    .#div1: Tem uma cor de fundo vermelha com transparência (rgba(255, 0, 0, 0.5)), preenchimento de 10 pixels, largura de 50%, altura de 200 pixels e posição sticky. A propriedade position: sticky faz com que o elemento fique fixo na tela quando o usuário rolar a página. As propriedades top: 0 e bottom: 0 fazem com que o elemento ocupe toda a altura do contêiner pai.
+
+    .#div2: Tem uma cor de fundo verde com transparência (rgba(0, 255, 0, 0.5)), preenchimento de 10 pixels, largura de 80% e altura de 50 pixels. A propriedade position: static é o valor padrão e não afeta o posicionamento do elemento.
+
+    .#div3: Tem uma cor de fundo azul com transparência (rgba(0, 0, 255, 0.5)), preenchimento de 10 pixels, largura de 30 pixels, altura de 30 pixels e posição static. As propriedades top: 20px e right: 0 definem o posicionamento do elemento em relação à sua posição normal na página.
+
+- </style>: Fecha o elemento style.
+
+- <body>: O elemento body contém o conteúdo visível da página.
+
+- <h1>Position</h1>: Cabeçalho de nível 1 (h1) com o texto "Position".
+
+- <ul style="display: flex; list-style-type: none">...</ul>: Lista não ordenada (ul) com um estilo personalizado, definido inline com o atributo style. A propriedade display: flex é usada para criar um contêiner flex para os elementos da lista e list-style-type: none remove os marcadores de lista padrão.
+
+- Vários elementos <p>: Parágrafos de texto que simulam um conteúdo longo na página.
+
+- <div id="div1">...</div>: Um elemento div com o ID div1. Este div contém outros dois elementos divs aninhados (#div2 e #div3).
+
+- Mais elementos <p>: Parágrafos adicionais de texto que simulam um conteúdo longo na página.
+
+O exemplo demonstra como usar a propriedade position para controlar o posicionamento de elementos na página, seja com valores fixos ou relativos à posição normal dos elementos. A utilização de position: sticky torna o elemento fixo na tela enquanto o usuário rola a página, criando um efeito de fixação.

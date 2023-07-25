@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="author" content="Wesley Victor Pereira Silva" />
+  <meta name="description" content="Descrição da página" />
+  <meta name="keywords" content="html5, tecnologia" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Float e Clear</title>
+  <style>
+    #container {
+      width: 80%;
+      background-color: #ccc;
+      padding: 15px;
+      overflow: auto;
+    }
+
+    #container div {
+      background-color: rgba(255, 0, 0, 0.3);
+      margin: 10px;
+      width: 20%;
+      height: 50px;
+    }
+
+    #div1 {
+      float: left;
+    }
+
+    #div2 {
+      float: left;
+    }
+
+    #div3 {
+      /* clear: both; */
+      float: left;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Float e Clear</h1>
+  <ul style="display: flex; list-style-type: none">
+    <li style="padding: 5px"><a href="position.html">Position</a></li>
+    <li style="padding: 5px"><a href="overflow.html">Overflow</a></li>
+    <li style="padding: 5px"><a href="index.html">Z-index</a></li>
+    <li style="padding: 5px"><a href="float_clear.html">Float e clear</a></li>
+    <li style="padding: 5px"><a href="fit_content.html">Fit content</a></li>
+  </ul>
+  <div id="container">
+    <div id="div1">div 1</div>
+    <div id="div2">div 2</div>
+    <div id="div3">div 3</div>
+  </div>
+</body>
+
+</html>
