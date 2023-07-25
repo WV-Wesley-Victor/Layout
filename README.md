@@ -3,7 +3,7 @@
 
 ![Captura de Tela (41)](https://github.com/WV-Wesley-Victor/Layout/assets/137107062/34f67d24-07cd-490f-a51c-d900a47140ed)
 <p align="center">
-  <a href="https://wv-wesley-victor.github.io/Estrutura-semantica-e-posicionamento/" target="_blank">Clique aqui para visitar o projeto</a>
+  <a href="https://wv-wesley-victor.github.io/Layout/" target="_blank">Clique aqui para visitar o projeto</a>
 </p>
 
 ## Descrição
