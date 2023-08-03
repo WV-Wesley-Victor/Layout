@@ -14,6 +14,29 @@ Os projetos são projetados para serem usados como recursos de aprendizado para 
 * Design Flexível: Explore como projetar layouts flexíveis que acomodem o crescimento do conteúdo e mantenham a aparência agradável, mesmo com diferentes quantidades de informações.
 * Layouts Multi-Column: Descubra como criar layouts de várias colunas com suporte para conteúdo diversificado, como artigos, sidebars e cabeçalhos.
 
+## Fontes de Pesquisa
+Aprender a criar layouts usando HTML e CSS é fundamental para o desenvolvimento web. Aqui estão algumas fontes de pesquisa para você começar:
+
+* MDN Web Docs - CSS Layout: A documentação da MDN oferece informações detalhadas sobre os conceitos de layout em CSS, incluindo flexbox, grid e outras técnicas.
+Documentação: https://developer.mozilla.org/pt-BR/docs/Web/CSS/Layout
+* CSS-Tricks: O CSS-Tricks oferece tutoriais, artigos e exemplos práticos sobre diversos aspectos de design e layout com CSS.
+Site: https://css-tricks.com/
+* W3Schools - CSS Layout: A W3Schools tem uma seção dedicada ao layout em CSS, cobrindo flexbox, grid e outros tópicos.
+Tutorial: https://www.w3schools.com/css/css_layout.asp
+* Flexbox Froggy: Já mencionado anteriormente, este é um jogo interativo para aprender Flexbox.
+Site: https://flexboxfroggy.com/
+* Grid Garden: Similar ao Flexbox Froggy, é um jogo interativo para aprender CSS Grid.
+Site: https://cssgridgarden.com/
+* Traversy Media (YouTube): Brad Traversy tem vários tutoriais em vídeo sobre criação de layouts responsivos usando HTML e CSS.
+Canal: https://www.youtube.com/user/TechGuyWeb
+* Codecademy: A Codecademy oferece cursos interativos que cobrem técnicas de layout, como flexbox e grid, usando HTML e CSS.
+Curso: https://www.codecademy.com/learn/paths/full-stack-engineer-career-path
+* GitHub: Procure por repositórios públicos no GitHub que contenham exemplos de layouts HTML/CSS. Isso pode ser útil para estudar código real.
+Pesquise por: https://github.com/topics/html-css-layout
+* YouTube em geral: Pesquisar por "HTML CSS layout tutorial" no YouTube trará muitos tutoriais em vídeo sobre o assunto.
+
+Lembre-se de praticar muito ao aprender layouts em CSS e HTML. Crie projetos pessoais, experimente diferentes técnicas e tente replicar designs que você admira. A prática é a chave para aprofundar sua compreensão e habilidades nessa área.
+
 ## Instruções de Instalação (caso aplicável)
 Este projeto é uma coleção de tutoriais e exemplos disponibilizados online, não requerendo instalação local. Basta acessar o URL fornecido e explorar os recursos disponíveis.
 
